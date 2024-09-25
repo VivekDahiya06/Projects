@@ -306,7 +306,7 @@ const Weather = () => {
         <div className="logo">
           <h1>WeatherCast</h1>
         </div>
-        <div className="location">
+        <div className={weatherData ? "location" : "location hide"}>
           <IoLocation color="white" size="1.5rem" />
           &nbsp;
           <span>{weatherData.City} , {weatherData.Country}</span>
@@ -390,7 +390,11 @@ const Weather = () => {
           </div>
         </div>
       </div>
-      </> : <></>}
+      </> : <>
+        <div className="loading">
+            <h1>Invalid Location</h1>
+          </div>
+      </>}
       
     </>
   );
