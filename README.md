@@ -32,11 +32,6 @@ Git & GitHub: Version control and collaboration.
 
 🚀 How to Use This Repo
 
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/Vervebridge.git
 Navigate to the project folder you’re interested in.
 
 Follow the specific instructions in the project’s README to set it up.
